@@ -1,0 +1,30 @@
+/* nx-barrel-demo Replica Styles */
+@import "primeflex/primeflex.css";
+
+:root {
+    --font-family: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-family);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #0f172a; /* Slate 900 */
+}
+
+/* Customizations for PrimeNG Dark Theme */
+.p-toolbar {
+    border-radius: 0;
+}
+
+.surface-card {
+    transition: transform 0.2s;
+}
+
+.surface-card:hover {
+    transform: translateY(-4px);
+}
+
+
+

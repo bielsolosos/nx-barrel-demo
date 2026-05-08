@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+tmp/
+out-tsc/
+
+# Nx
+.nx/cache
+.nx/workspace-data
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Angular
+.angular/
