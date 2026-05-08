@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/" />
+    <title>Angular Barrel Error Demo</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-biel-black: #090909;
+        --color-biel-panel: #121212;
+        --color-biel-border: #1F1F1F;
+        --color-biel-magenta: #D946EF;
+        --color-biel-text: #E5E7EB;
+        --color-biel-dim: #9CA3AF;
+        --color-biel-success: #10B981;
+      }
+      body {
+        @apply bg-biel-black text-biel-text;
+      }
+    </style>
+  </head>
+  <body>
+    <app-root></app-root>
+  </body>
+</html>

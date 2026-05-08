@@ -1,0 +1,13 @@
+- Generating browser application bundles (phase: setup)...
+[32m✔[39m Browser application bundle generation complete.
+[32m✔[39m Browser application bundle generation complete.
+[1m[31m
+[0m[91mError: [31m[0m[96mapps/angular-barrel-error-demo/src/main.ts[0m:[93m7[0m:[93m1[0m - [91merror[0m[90m TS2322: [0mType 'Promise<void | ApplicationRef>' is not assignable to type 'Promise<void>'.
+  Type 'void | ApplicationRef' is not assignable to type 'void'.
+    Type 'ApplicationRef' is not assignable to type 'void'.
+
+[7m7[0m (window as { __appBootstrap?: Promise<void> }).__appBootstrap = bootstrapPromise;
+[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[39m[22m

@@ -1,0 +1,348 @@
+{
+  "apps/angular-barrel-error-demo": {
+    "root": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.defaultConfiguration": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.index": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.budgets": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.outputHashing": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.aot": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.buildOptimizer": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.optimization": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.vendorChunk": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.extractLicenses": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.sourceMap": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.namedChunks": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.continuous": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.defaultConfiguration": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.buildTarget": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.executor": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options.buildTarget": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.continuous": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.executor": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.buildTarget": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.spa": [
+      "apps/angular-barrel-error-demo/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "libs/shared-services": {
+    "root": [
+      "libs/shared-services/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "libs/shared-services/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "libs/shared-services/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/shared-services/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "libs/shared-services/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/shared-services/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/shared-services/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "libs/shared-services/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "libs/shared-services/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "libs/shared-services/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "libs/shared-ui": {
+    "root": [
+      "libs/shared-ui/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "libs/shared-ui/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "libs/shared-ui/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/shared-ui/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "libs/shared-ui/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/shared-ui/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/shared-ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "libs/shared-ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "libs/shared-ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "libs/shared-ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  }
+}

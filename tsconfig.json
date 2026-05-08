@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.base.json",
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/angular-barrel-error-demo/tsconfig.json"
+    },
+    {
+      "path": "./libs/shared-ui/tsconfig.json"
+    },
+    {
+      "path": "./libs/shared-services/tsconfig.json"
+    }
+  ]
+}

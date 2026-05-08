@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "useDefineForClassFields": false,
+    "module": "ES2022",
+    "lib": [
+      "ES2022",
+      "DOM"
+    ],
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@demo/shared-ui": ["libs/shared-ui/src/index.ts"],
+      "@demo/shared-services": ["libs/shared-services/src/index.ts"]
+    },
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": false
+  }
+}

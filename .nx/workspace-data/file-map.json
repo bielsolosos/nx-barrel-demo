@@ -1,0 +1,259 @@
+{
+  "version": "6.0",
+  "nxVersion": "22.7.1",
+  "pathMappings": {
+    "@demo/shared-ui": [
+      "libs/shared-ui/src/index.ts"
+    ],
+    "@demo/shared-ui/constants": [
+      "libs/shared-ui/src/lib/constants/index.ts"
+    ],
+    "@demo/shared-ui/components": [
+      "libs/shared-ui/src/lib/components/index.ts"
+    ],
+    "@demo/shared-services": [
+      "libs/shared-services/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "nx.json",
+        "hash": "10404193556594681048"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "5090148858353241113"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "12926286793420397906"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "2055636363624404526"
+      },
+      {
+        "file": ".tmp-tsc/libs/shared-utils/src/lib/auth.service.js",
+        "hash": "12250839419056666536"
+      },
+      {
+        "file": "README.md",
+        "hash": "8710869148342241189"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".tmp-tsc/libs/shared-utils/src/index.js",
+        "hash": "8078255163324421638"
+      },
+      {
+        "file": ".env.example",
+        "hash": "16745811091072202617"
+      },
+      {
+        "file": "Export [Vertis] Doc Uncaught TypeError_Uncaught ReferenceError NX (2).md",
+        "hash": "7337350416282112035"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "8058292514785017057"
+      },
+      {
+        "file": "package.json",
+        "hash": "1191992533096032096"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "9599099476399217540"
+      },
+      {
+        "file": "postcss.config.js",
+        "hash": "1946075535965830873"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "5407418692668764289"
+      },
+      {
+        "file": ".tmp-tsc/libs/shared-utils/src/lib/user.model.js",
+        "hash": "7347107174755595156"
+      },
+      {
+        "file": ".tmp-tsc/apps/angular-barrel-error-demo/src/app/app.config.js",
+        "hash": "17319438993472282724"
+      },
+      {
+        "file": ".tmp-tsc/apps/angular-barrel-error-demo/src/app/app.js",
+        "hash": "4602329194783072526"
+      },
+      {
+        "file": ".tmp-tsc/apps/angular-barrel-error-demo/src/app/nx-welcome.js",
+        "hash": "14038218195536200683"
+      },
+      {
+        "file": ".tmp-tsc/apps/angular-barrel-error-demo/src/main.js",
+        "hash": "1334562031764423333"
+      },
+      {
+        "file": "ANATOMIA_DO_ERRO.md",
+        "hash": "2172800247954388694"
+      }
+    ],
+    "projectFileMap": {
+      "angular-barrel-error-demo": [
+        {
+          "file": "apps/angular-barrel-error-demo/eslint.config.mjs",
+          "hash": "11999635802406141026",
+          "deps": [
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "apps/angular-barrel-error-demo/project.json",
+          "hash": "2029158902658611073"
+        },
+        {
+          "file": "apps/angular-barrel-error-demo/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/angular-barrel-error-demo/src/app/app.config.ts",
+          "hash": "1253581092331553238",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/angular-barrel-error-demo/src/app/app.ts",
+          "hash": "5448296695991119128",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "shared-ui"
+          ]
+        },
+        {
+          "file": "apps/angular-barrel-error-demo/src/app/nx-welcome.ts",
+          "hash": "679959993684050158",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/angular-barrel-error-demo/src/index.html",
+          "hash": "16164265859810221950"
+        },
+        {
+          "file": "apps/angular-barrel-error-demo/src/main.ts",
+          "hash": "14458116713312689552",
+          "deps": [
+            "npm:@angular/platform-browser",
+            "npm:zone.js"
+          ]
+        },
+        {
+          "file": "apps/angular-barrel-error-demo/src/styles.css",
+          "hash": "2951049723282290225"
+        },
+        {
+          "file": "apps/angular-barrel-error-demo/tsconfig.app.json",
+          "hash": "6850744177559465150"
+        },
+        {
+          "file": "apps/angular-barrel-error-demo/tsconfig.json",
+          "hash": "4364496851995980983"
+        }
+      ],
+      "shared-ui": [
+        {
+          "file": "libs/shared-ui/README.md",
+          "hash": "1850040737674511259"
+        },
+        {
+          "file": "libs/shared-ui/eslint.config.mjs",
+          "hash": "11597483048386829367",
+          "deps": [
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "libs/shared-ui/project.json",
+          "hash": "18285133340395079525"
+        },
+        {
+          "file": "libs/shared-ui/src/index.ts",
+          "hash": "7363987394844702219"
+        },
+        {
+          "file": "libs/shared-ui/src/lib/components/button/button.component.ts",
+          "hash": "18438852490962683795",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "libs/shared-ui/src/lib/components/card/card.component.ts",
+          "hash": "12392252542651312453",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "shared-services"
+          ]
+        },
+        {
+          "file": "libs/shared-ui/src/lib/components/index.ts",
+          "hash": "10134451184347951994"
+        },
+        {
+          "file": "libs/shared-ui/src/lib/constants/index.ts",
+          "hash": "9746293743750884362"
+        },
+        {
+          "file": "libs/shared-ui/src/lib/constants/theme.constants.ts",
+          "hash": "14443700923657105917"
+        },
+        {
+          "file": "libs/shared-ui/tsconfig.json",
+          "hash": "17030579670502381211"
+        },
+        {
+          "file": "libs/shared-ui/tsconfig.lib.json",
+          "hash": "11411411819725542875"
+        }
+      ],
+      "shared-services": [
+        {
+          "file": "libs/shared-services/project.json",
+          "hash": "15107015930663445520"
+        },
+        {
+          "file": "libs/shared-services/src/index.ts",
+          "hash": "15661231285606983998"
+        },
+        {
+          "file": "libs/shared-services/src/lib/auth.service.ts",
+          "hash": "12235289318829725805",
+          "deps": [
+            "npm:@angular/core",
+            "shared-ui"
+          ]
+        },
+        {
+          "file": "libs/shared-services/tsconfig.json",
+          "hash": "15856989918287211863"
+        },
+        {
+          "file": "libs/shared-services/tsconfig.lib.json",
+          "hash": "18236407445202082987"
+        }
+      ]
+    }
+  },
+  "externalNodesHash": "14706722936742466006"
+}
