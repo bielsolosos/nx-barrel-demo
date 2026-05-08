@@ -5,8 +5,8 @@ import { THEME_CONFIG } from '@nx-barrel-demo/shared-ui'; // GATILHO DO ERRO
   providedIn: 'root'
 })
 export class AuthService {
-  // Acesso estático que dispara a avaliação da lib UI
-  static config = THEME_CONFIG;
+  // Acesso agressivo: Se THEME_CONFIG não estiver pronto, BOOM.
+  static primaryColor = THEME_CONFIG.primaryColor;
 
   constructor() {
     console.log('--- AuthService Replica nx-barrel-demo Inicializado ---');

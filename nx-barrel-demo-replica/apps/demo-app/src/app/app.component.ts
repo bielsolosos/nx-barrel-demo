@@ -4,12 +4,12 @@ import { SidebarModule } from 'primeng/sidebar';
 import { ButtonModule } from 'primeng/button';
 import { CardModule } from 'primeng/card';
 import { ToolbarModule } from 'primeng/toolbar';
-import { THEME_CONFIG } from '@nx-barrel-demo/shared-ui'; 
+import { THEME_CONFIG, CardComponent } from '@nx-barrel-demo/shared-ui'; 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, SidebarModule, ButtonModule, CardModule, ToolbarModule],
+  imports: [CommonModule, SidebarModule, ButtonModule, CardModule, ToolbarModule, CardComponent],
   template: `
     <div class="min-h-screen flex flex-column bg-gray-900 font-sans">
       <!-- Toolbar/Header -->
@@ -43,7 +43,15 @@ import { THEME_CONFIG } from '@nx-barrel-demo/shared-ui';
 
         <!-- Grid de Conteúdo -->
         <div class="grid">
-          <div class="col-12 md:col-6 lg:col-3">
+          <!-- O GATILHO: Este componente vai disparar a avaliação da lib-ui -->
+          <div class="col-12 md:col-6 lg:col-4">
+             <lib-card 
+               title="Análise de Dependência" 
+               description="Tentando carregar o AuthService através do barrel da UI. Se você está vendo isso, o erro não disparou.">
+             </lib-card>
+          </div>
+
+          <div class="col-12 md:col-6 lg:col-4">
             <div class="surface-card p-4 shadow-2 border-round-xl bg-gray-800 border-1 border-gray-700 hover:border-primary transition-all transition-duration-300">
               <div class="flex justify-content-between mb-3">
                 <div>
